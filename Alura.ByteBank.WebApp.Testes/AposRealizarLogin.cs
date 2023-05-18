@@ -1,5 +1,5 @@
-﻿using Alura.ByteBank.WebApp.Testes.PageObjects;
-using Alura.ByteBank.WebApp.Testes.Util;
+﻿using Alura.ByteBank.WebApp.T.PageObjects;
+using Alura.ByteBank.WebApp.T.Util;
 using OpenQA.Selenium;
 using System;
 using System.Collections.Generic;

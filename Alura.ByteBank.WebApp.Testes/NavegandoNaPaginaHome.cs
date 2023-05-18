@@ -1,4 +1,4 @@
-using Alura.ByteBank.WebApp.Testes.Util;
+using Alura.ByteBank.WebApp.T.Util;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using System;
