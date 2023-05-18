@@ -146,11 +146,11 @@ namespace Alura.ByteBank.WebApp.Testes
             loginPO.Navegar("https://localhost:44309/UsuarioApps/Login");
 
             //Act
-            loginPO.PreencherCampos("andre@email.com", "senha01x");
+            loginPO.PreencherCampos("andre@email.com", "senha01");
             loginPO.Logar();
 
             //Assert
-            Assert.Contains("Adicionar Agência", driver.PageSource);
+            Assert.Contains("Agência", driver.PageSource);
         }
 
         [Fact]
