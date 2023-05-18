@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Alura.ByteBank.WebApp.Testes.Util
+namespace Alura.ByteBank.WebApp.T.Util
 {
     public class Fixture : IDisposable
     {

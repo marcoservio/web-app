@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Alura.ByteBank.WebApp.Testes.PageObjects
+namespace Alura.ByteBank.WebApp.T.PageObjects
 {
     
     public class LoginPO

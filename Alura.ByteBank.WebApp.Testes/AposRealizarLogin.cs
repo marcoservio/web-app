@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace Alura.ByteBank.WebApp.Testes
+namespace Alura.ByteBank.WebApp.T
 {
     public class AposRealizarLogin : IClassFixture<Fixture>
     {

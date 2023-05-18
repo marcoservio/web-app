@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace Alura.ByteBank.WebApp.Testes
+namespace Alura.ByteBank.WebApp.T
 {
     public class RealizarLogin:IDisposable
     {

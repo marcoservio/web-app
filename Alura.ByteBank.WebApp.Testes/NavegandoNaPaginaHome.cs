@@ -6,7 +6,7 @@ using System.IO;
 using System.Reflection;
 using Xunit;
 
-namespace Alura.ByteBank.WebApp.Testes
+namespace Alura.ByteBank.WebApp.T
 {
     public class NavegandoNaPaginaHome:IClassFixture<Fixture>
     {
