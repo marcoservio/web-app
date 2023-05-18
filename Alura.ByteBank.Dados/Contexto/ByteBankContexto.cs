@@ -15,13 +15,11 @@ namespace Alura.ByteBank.Dados.Contexto
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             string stringconexao = $"Server=bytebankapp.mysql.database.azure.com;UserID=marco;Password=Ma8Lez0F1Gic3Rod6;Database=bytebankdb;";
-            optionsBuilder.UseMySql(stringconexao,
-                                    ServerVersion.AutoDetect(stringconexao));
+            optionsBuilder.UseMySql(stringconexao, ServerVersion.AutoDetect(stringconexao));
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-
             modelBuilder.Entity<Cliente>(entity =>
             {
                 entity.ToTable("cliente");
@@ -66,6 +64,5 @@ namespace Alura.ByteBank.Dados.Contexto
 
             base.OnModelCreating(modelBuilder);
         }
-
     }
 }
